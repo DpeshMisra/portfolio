@@ -664,7 +664,7 @@
 <div class="row">
 <div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
 	<!-- modify this form HTML and place wherever you want your form -->
-<form action="https://formspree.io/f/xgebvkrk" method="POST">
+<!-- <form action="https://formspree.io/f/xgebvkrk" method="POST">
 <div class="form-group">
 <input type="name" class="form-control" placeholder="Name">
 </div>
@@ -680,6 +680,27 @@
 <div class="form-group">
 <input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
 </div>
+</form> -->
+<form
+  action="https://formspree.io/f/xgebvkrk"method="POST">
+  <div class="form-group">
+	<label>
+		<input type="name" name="name" placeholder="Name">
+	  </label>
+  </div>
+  <div class="form-group">
+	<label>
+		<input type="email" name="email" placeholder="Email">
+	  </label>
+  </div>
+  <div class="form-group">
+	<label>
+		Your message:
+		<textarea name="message"></textarea>
+	  </label>
+	  <!-- your other form fields go here -->
+	  <button type="submit">Send</button>
+  </div>
 </form>
 </div>
 </div>
